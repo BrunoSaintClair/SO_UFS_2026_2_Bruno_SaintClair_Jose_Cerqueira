@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.env
+.venv/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Project specific
+data/vectors/
+data/*.db
+web-ui/data/*.db
+*.log
+.cache
+.pytest_cache/
+
+# Coverage files
+.coverage
+htmlcov/
+coverage.xml
+
+# Sensitive files, databases and uploaded PDFs
+data/pdfs/uploads/*
+!data/pdfs/uploads/.gitkeep
+*.db
+*.sqlite
+*.sqlite3
+.env*.local
+.env
+

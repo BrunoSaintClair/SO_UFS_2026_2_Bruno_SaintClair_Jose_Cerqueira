@@ -1,0 +1,46 @@
+# Ambientes virtuais
+.venv/
+venv/
+ENV/
+env/
+
+# Node & Dependências
+node_modules/
+.pnpm-store/
+
+# Builds e Cache
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.cache/
+.next/
+out/
+build/
+dist/
+
+# Arquivos de ambiente e segredos (NÃO versionar credenciais)
+.env
+.env*.local
+*.local
+
+# Bancos de dados e dados locais
+*.db
+*.sqlite
+*.sqlite3
+**/data/vectors/
+**/data/*.db
+**/web-ui/data/*.db
+
+# PDFs e arquivos enviados por usuários/testes
+**/data/pdfs/uploads/*
+!**/data/pdfs/uploads/.gitkeep
+
+# Logs
+*.log
+
+# IDEs e Sistema Operacional
+.DS_Store
+.idea/
+.vscode/
+*.swp
