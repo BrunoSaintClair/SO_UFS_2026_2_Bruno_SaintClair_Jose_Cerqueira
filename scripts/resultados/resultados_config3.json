@@ -1,0 +1,731 @@
+{
+  "config_3": {
+    "testes": [
+      {
+        "configuracao": "3_gpu_vs_cpu",
+        "modo": "gpu",
+        "tipo_pergunta": "curta",
+        "repeticao": 1,
+        "timestamp": "2026-09-13T12:05:09.132204",
+        "rag": {
+          "sucesso": true,
+          "tempo_total_s": 38.9124,
+          "tempo_primeira_resposta_s": 38.9121,
+          "resposta_tamanho": 991,
+          "resposta_preview": "O tema principal do documento é o **desenvolvimento de um site institucional**.\n\nCom base no texto fornecido, o documento \"Proposta / Contrato de Projeto\" (CafeComCase_LAWD.pdf) estabelece o objeto do projeto de forma clara na Cláusula 1 – Objeto do Projeto, onde se afirma que o instrumento tem por ",
+          "fontes": 4,
+          "chunks_recuperados": 4,
+          "passos_raciocinio": 9,
+          "erro": null
+        },
+        "ollama_direto": {
+          "sucesso": true,
+          "tempo_total_s": 4.2249,
+          "tokens_gerados": 164,
+          "tokens_prompt": 18,
+          "tokens_por_segundo": 55.1,
+          "tempo_carga_modelo_s": 1.0858,
+          "resposta_preview": "The user is asking for the main theme of the document. However, there is no document provided in the conversation history. The prompt only contains the question \"Qual é o tema principal do documento?\" (What is the main theme of the document?) without any accompanying text or file.\n\nTherefore, I cann",
+          "erro": null
+        },
+        "avaliacao": "ADEQUADA — resposta coerente e contextualizada",
+        "metricas_sistema_antes": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13406265344,
+          "ram_disponivel_bytes": 11478306816,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 71,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 5.9,
+          "load_avg_5m": 5.75,
+          "total_processos_app": 13,
+          "total_threads_app": 190,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 68408,
+              "cpu_pct": 0.1
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 56,
+              "rss_kb": 390060,
+              "cpu_pct": 6.800000000000001
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 5.0
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 21,
+              "rss_kb": 794512,
+              "cpu_pct": 97.60000000000001
+            }
+          }
+        },
+        "metricas_sistema_depois": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13323919360,
+          "ram_disponivel_bytes": 11560652800,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 74,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 7.93,
+          "load_avg_5m": 6.21,
+          "total_processos_app": 13,
+          "total_threads_app": 207,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70472,
+              "cpu_pct": 0.1
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 56,
+              "rss_kb": 390784,
+              "cpu_pct": 4.3
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.9
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1504424,
+              "cpu_pct": 98.3
+            }
+          }
+        }
+      },
+      {
+        "configuracao": "3_gpu_vs_cpu",
+        "modo": "gpu",
+        "tipo_pergunta": "curta",
+        "repeticao": 2,
+        "timestamp": "2026-09-13T12:06:20.589923",
+        "rag": {
+          "sucesso": true,
+          "tempo_total_s": 65.0096,
+          "tempo_primeira_resposta_s": 65.0094,
+          "resposta_tamanho": 1114,
+          "resposta_preview": "O tema principal do documento é um **acordo de contratação para o desenvolvimento e lançamento de um site institucional**.\n\nEspecificamente, o texto estabelece os seguintes elementos:\n\n*   O documento é um \"Aceite da Proposta\" entre duas partes: a **Contratante** (Assinatura do Contratante) e o **Co",
+          "fontes": 3,
+          "chunks_recuperados": 3,
+          "passos_raciocinio": 9,
+          "erro": null
+        },
+        "ollama_direto": {
+          "sucesso": true,
+          "tempo_total_s": 4.2114,
+          "tokens_gerados": 162,
+          "tokens_prompt": 18,
+          "tokens_por_segundo": 55.66,
+          "tempo_carga_modelo_s": 1.1448,
+          "resposta_preview": "The user is asking me to identify the main theme of the document. However, I don't see any document attached or provided in the conversation. The message \"Qual é o tema principal do documento?\" (What is the main theme of the document?) refers to a document that isn't actually present.\n\nI should poli",
+          "erro": null
+        },
+        "avaliacao": "ADEQUADA — resposta coerente e contextualizada",
+        "metricas_sistema_antes": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13284024320,
+          "ram_disponivel_bytes": 11600547840,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 0,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 7.46,
+          "load_avg_5m": 6.14,
+          "total_processos_app": 13,
+          "total_threads_app": 207,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70472,
+              "cpu_pct": 0.1
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 56,
+              "rss_kb": 390800,
+              "cpu_pct": 4.3
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.9
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1504424,
+              "cpu_pct": 93.69999999999999
+            }
+          }
+        },
+        "metricas_sistema_depois": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13503516672,
+          "ram_disponivel_bytes": 11381055488,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 77,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 7.52,
+          "load_avg_5m": 6.47,
+          "total_processos_app": 13,
+          "total_threads_app": 207,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70352,
+              "cpu_pct": 0.1
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 56,
+              "rss_kb": 391516,
+              "cpu_pct": 4.1000000000000005
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.9
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1592532,
+              "cpu_pct": 97.5
+            }
+          }
+        }
+      },
+      {
+        "configuracao": "3_gpu_vs_cpu",
+        "modo": "gpu",
+        "tipo_pergunta": "curta",
+        "repeticao": 3,
+        "timestamp": "2026-09-13T12:07:26.001990",
+        "rag": {
+          "sucesso": true,
+          "tempo_total_s": 59.4298,
+          "tempo_primeira_resposta_s": 59.4296,
+          "resposta_tamanho": 1178,
+          "resposta_preview": "O tema principal do documento é a **parceria e o contrato de desenvolvimento de um site institucional entre a empresa \"Café com Case\" (Contratado) e a Liga Acadêmica de Desenvolvimento Web (LAWD - Contratada)**.\n\nCom base no documento [Source: CafeComCase_LAWD.pdf], o texto detalha:\n*   **As partes ",
+          "fontes": 4,
+          "chunks_recuperados": 4,
+          "passos_raciocinio": 9,
+          "erro": null
+        },
+        "ollama_direto": {
+          "sucesso": true,
+          "tempo_total_s": 3.7445,
+          "tokens_gerados": 141,
+          "tokens_prompt": 18,
+          "tokens_por_segundo": 55.08,
+          "tempo_carga_modelo_s": 1.0216,
+          "resposta_preview": "*   Input: \"Qual é o tema principal do documento?\" (What is the main theme of the document?)\n    *   Context: There is no document provided in the current conversation history. The prompt is a question asking about a document that hasn't been shared.\n\n    *   I cannot answer the question because I d",
+          "erro": null
+        },
+        "avaliacao": "ADEQUADA — resposta coerente e contextualizada",
+        "metricas_sistema_antes": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13471293440,
+          "ram_disponivel_bytes": 11413278720,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 0,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 7.16,
+          "load_avg_5m": 6.41,
+          "total_processos_app": 13,
+          "total_threads_app": 207,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70352,
+              "cpu_pct": 0.1
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 56,
+              "rss_kb": 391524,
+              "cpu_pct": 4.1000000000000005
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.9
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1592532,
+              "cpu_pct": 95.69999999999999
+            }
+          }
+        },
+        "metricas_sistema_depois": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13576851456,
+          "ram_disponivel_bytes": 11307720704,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 69,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 8.66,
+          "load_avg_5m": 7.05,
+          "total_processos_app": 13,
+          "total_threads_app": 206,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70040,
+              "cpu_pct": 0.1
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 55,
+              "rss_kb": 392328,
+              "cpu_pct": 4.0
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.8
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1691340,
+              "cpu_pct": 97.0
+            }
+          }
+        }
+      },
+      {
+        "configuracao": "3_gpu_vs_cpu",
+        "modo": "gpu",
+        "tipo_pergunta": "longa",
+        "repeticao": 1,
+        "timestamp": "2026-09-13T12:08:33.492188",
+        "rag": {
+          "sucesso": true,
+          "tempo_total_s": 58.3652,
+          "tempo_primeira_resposta_s": 58.365,
+          "resposta_tamanho": 4257,
+          "resposta_preview": "# Análise Detalhada do Documento CafeComCase_LAWD.pdf\n\n## 1. Identificação dos Principais Argumentos e Conclusões\n\nO documento é um instrumento de parceria entre **Café com Case** (contratante) e **Liga Acadêmica de Desenvolvimento Web - UFS/DCOMP** (contratado), estabelecido em 03 de Agosto de 2026",
+          "fontes": 4,
+          "chunks_recuperados": 4,
+          "passos_raciocinio": 9,
+          "erro": null
+        },
+        "ollama_direto": {
+          "sucesso": true,
+          "tempo_total_s": 6.9297,
+          "tokens_gerados": 408,
+          "tokens_prompt": 74,
+          "tokens_por_segundo": 64.3,
+          "tempo_carga_modelo_s": 0.4897,
+          "resposta_preview": "*   Task: Detailed analysis of the provided document.\n    *   Key requirements:\n        *   Identify main arguments.\n        *   State conclusions drawn by the author.\n        *   Explain how data supports these claims.\n        *   Mention references to other works or external sources (if any).\n    ",
+          "erro": null
+        },
+        "avaliacao": "ADEQUADA — resposta coerente e contextualizada",
+        "metricas_sistema_antes": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13561204736,
+          "ram_disponivel_bytes": 11323367424,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 0,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 9.01,
+          "load_avg_5m": 7.15,
+          "total_processos_app": 13,
+          "total_threads_app": 206,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70040,
+              "cpu_pct": 0.1
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 55,
+              "rss_kb": 392328,
+              "cpu_pct": 4.0
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.8
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1691340,
+              "cpu_pct": 95.8
+            }
+          }
+        },
+        "metricas_sistema_depois": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13626142720,
+          "ram_disponivel_bytes": 11258429440,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 90,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 4.57,
+          "load_avg_5m": 6.28,
+          "total_processos_app": 13,
+          "total_threads_app": 206,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70016,
+              "cpu_pct": 0.2
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 55,
+              "rss_kb": 393056,
+              "cpu_pct": 3.9000000000000004
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.7
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1760560,
+              "cpu_pct": 96.9
+            }
+          }
+        }
+      },
+      {
+        "configuracao": "3_gpu_vs_cpu",
+        "modo": "gpu",
+        "tipo_pergunta": "longa",
+        "repeticao": 2,
+        "timestamp": "2026-09-13T12:09:39.437576",
+        "rag": {
+          "sucesso": true,
+          "tempo_total_s": 52.3028,
+          "tempo_primeira_resposta_s": 52.3027,
+          "resposta_tamanho": 4302,
+          "resposta_preview": "# Análise Detalhada do Documento CafeComCase_LAWD.pdf\n\n## 1. Identificação das Partes Envolvidas\n\nO documento é um contrato de parceria entre **Liga Acadêmica de Desenvolvimento Web (LAWD)** e **Café com Case**, datado de 3 de agosto de 2026. A **Contratante** (Café com Case) e a **Contratada** (LAW",
+          "fontes": 4,
+          "chunks_recuperados": 4,
+          "passos_raciocinio": 9,
+          "erro": null
+        },
+        "ollama_direto": {
+          "sucesso": true,
+          "tempo_total_s": 11.5037,
+          "tokens_gerados": 686,
+          "tokens_prompt": 74,
+          "tokens_por_segundo": 62.98,
+          "tempo_carga_modelo_s": 0.5102,
+          "resposta_preview": "*   Task: Detailed analysis of a provided document.\n*   Key requirements:\n    *   Identify main arguments.\n    *   Identify conclusions drawn by the author.\n    *   Explain how data/supporting evidence sustain these claims.\n    *   Include references to other works or external sources mentioned in t",
+          "erro": null
+        },
+        "avaliacao": "ADEQUADA — resposta coerente e contextualizada",
+        "metricas_sistema_antes": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13649010688,
+          "ram_disponivel_bytes": 11235561472,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 0,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 4.57,
+          "load_avg_5m": 6.28,
+          "total_processos_app": 13,
+          "total_threads_app": 206,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70016,
+              "cpu_pct": 0.2
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 55,
+              "rss_kb": 393080,
+              "cpu_pct": 3.9000000000000004
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.7
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1760560,
+              "cpu_pct": 96.1
+            }
+          }
+        },
+        "metricas_sistema_depois": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13701693440,
+          "ram_disponivel_bytes": 11182878720,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 90,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 3.64,
+          "load_avg_5m": 5.59,
+          "total_processos_app": 13,
+          "total_threads_app": 206,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70216,
+              "cpu_pct": 0.2
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 55,
+              "rss_kb": 393740,
+              "cpu_pct": 3.9000000000000004
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.7
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1833512,
+              "cpu_pct": 97.10000000000001
+            }
+          }
+        }
+      },
+      {
+        "configuracao": "3_gpu_vs_cpu",
+        "modo": "gpu",
+        "tipo_pergunta": "longa",
+        "repeticao": 3,
+        "timestamp": "2026-09-13T12:10:46.736665",
+        "rag": {
+          "sucesso": true,
+          "tempo_total_s": 59.0894,
+          "tempo_primeira_resposta_s": 59.0893,
+          "resposta_tamanho": 5154,
+          "resposta_preview": "## Analysis of CafeComCase_LAWD.pdf Document\n\n### Relevant Parts of the Context\n\nThe provided context consists entirely of a partnership agreement (instrumento) between **Liga Acadêmica de Desenvolvimento Web (LAWD)** and **Café com Case**. The relevant sections include:\n\n1. **Preamble/description**",
+          "fontes": 4,
+          "chunks_recuperados": 4,
+          "passos_raciocinio": 9,
+          "erro": null
+        },
+        "ollama_direto": {
+          "sucesso": true,
+          "tempo_total_s": 6.0692,
+          "tokens_gerados": 347,
+          "tokens_prompt": 74,
+          "tokens_por_segundo": 62.89,
+          "tempo_carga_modelo_s": 0.454,
+          "resposta_preview": "*   Task: Detailed analysis of the provided document (though no document was actually uploaded or specified in the prompt).\n    *   Specific requirements:\n        *   Identify main arguments.\n        *   Identify conclusions drawn by the author.\n        *   Explain how data supports these claims.\n  ",
+          "erro": null
+        },
+        "avaliacao": "ADEQUADA — resposta coerente e contextualizada",
+        "metricas_sistema_antes": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13691396096,
+          "ram_disponivel_bytes": 11193176064,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 0,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 3.42,
+          "load_avg_5m": 5.52,
+          "total_processos_app": 13,
+          "total_threads_app": 206,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 70216,
+              "cpu_pct": 0.2
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 55,
+              "rss_kb": 393740,
+              "cpu_pct": 3.9000000000000004
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.7
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1833512,
+              "cpu_pct": 96.4
+            }
+          }
+        },
+        "metricas_sistema_depois": {
+          "ram_total_bytes": 24884572160,
+          "ram_usada_bytes": 13951983616,
+          "ram_disponivel_bytes": 10932588544,
+          "vram_usada_mib": 2248,
+          "vram_total_mib": 6144,
+          "gpu_utilizacao_pct": 89,
+          "cpu_nucleos_logicos": 12,
+          "load_avg_1m": 2.99,
+          "load_avg_5m": 5.02,
+          "total_processos_app": 13,
+          "total_threads_app": 206,
+          "componentes": {
+            "ollama": {
+              "pids": 1,
+              "threads": 20,
+              "rss_kb": 67828,
+              "cpu_pct": 0.2
+            },
+            "node": {
+              "pids": 5,
+              "threads": 68,
+              "rss_kb": 461128,
+              "cpu_pct": 0.0
+            },
+            "python3": {
+              "pids": 4,
+              "threads": 55,
+              "rss_kb": 393760,
+              "cpu_pct": 3.9000000000000004
+            },
+            "next-server": {
+              "pids": 1,
+              "threads": 25,
+              "rss_kb": 2578340,
+              "cpu_pct": 4.6
+            },
+            "llama-server": {
+              "pids": 2,
+              "threads": 38,
+              "rss_kb": 1916824,
+              "cpu_pct": 97.30000000000001
+            }
+          }
+        }
+      }
+    ],
+    "cold_start_gpu": {
+      "sucesso": true,
+      "tempo_total_s": 7.8345,
+      "tokens_gerados": 67,
+      "tokens_prompt": 12,
+      "tokens_por_segundo": 55.82,
+      "tempo_carga_modelo_s": 1.1187,
+      "resposta_preview": "The user is greeting me with \"Olá\" (Hello in Portuguese). This is a simple, friendly opening. I should respond in kind - in Portuguese since they wrote in Portuguese.\n\nI'll respond warmly and ask how I can help them today.</think>Olá! Tudo bem? Como posso ajudar você hoje?",
+      "erro": null
+    },
+    "erro_cpu": "Falha na reconfiguração"
+  }
+}
