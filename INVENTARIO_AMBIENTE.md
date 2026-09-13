@@ -76,7 +76,6 @@
 - **Modelos Locais Baixados:**
   - `hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_0` (1.6 GB) — Modelo principal de linguagem para tarefas de RAG
   - `nomic-embed-text:latest` (274 MB) — Modelo para geração de embeddings vetoriais
-  - `qwen2.5-coder:3b` (1.9 GB) — Modelo adicional para tarefas de código
 
 #### 2.8 Camada de Aplicação e Dependências
 
@@ -251,7 +250,6 @@ $ ollama list
 NAME                                    ID              SIZE      MODIFIED     
 nomic-embed-text:latest                 0a109f422b47    274 MB    23 hours ago    
 hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_0    11e60e11c1d7    1.6 GB    23 hours ago    
-qwen2.5-coder:3b                        f72c60cabf62    1.9 GB    5 days ago      
 ```
 </details>
 
