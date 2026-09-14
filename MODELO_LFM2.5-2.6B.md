@@ -39,5 +39,4 @@ ollama pull hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_0
 
 ## Para executar
 
-```bash
 ollama run hf.co/LiquidAI/LFM2.5-2.6B-GGUF:Q4_0
