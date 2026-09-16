@@ -88,3 +88,8 @@ chmod +x start_all.sh
 - **Web UI (Next.js):** [http://localhost:3000](http://localhost:3000)
 - **API FastAPI (Docs):** [http://localhost:8001/docs](http://localhost:8001/docs)
 - **Streamlit Admin:** [http://localhost:8501](http://localhost:8501)
+
+
+### Vídeo da Atividade
+
+https://youtu.be/JfuxJnVD_vU
